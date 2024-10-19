@@ -14,5 +14,4 @@ class Chat extends Base {
 		);
 		return $args;
 	}
-
 }

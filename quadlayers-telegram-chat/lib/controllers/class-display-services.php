@@ -72,5 +72,4 @@ class Display_Services {
 
 		return $show;
 	}
-
 }

@@ -48,7 +48,6 @@ final class Plugin {
 		}
 		return self::$instance;
 	}
-
 }
 
 Plugin::instance();

@@ -65,7 +65,7 @@
 				<td>
 					<i class="dashicons dashicons-<?php echo ( $contact['chat'] ? 'yes' : 'no' ); ?>"></i>
 				</td>
-				<td><?php echo sprintf( '%s to %s', $contact['timefrom'], $contact['timeto'] ); ?></td>
+				<td><?php printf( '%s to %s', $contact['timefrom'], $contact['timeto'] ); ?></td>
 				<td><?php echo esc_html( $contact['timezone'] ); ?></td>
 				<td>
 					<a class="qltgm_settings_edit button" aria-label="<?php esc_html_e( 'Edit checkout field', 'quadlayers-telegram-chat' ); ?>" href="javascript:;"><?php esc_html_e( 'Edit' ); ?></a>
@@ -73,7 +73,7 @@
 				</td>
 				</tr>
 				<?php
-				$position++;
+				++$position;
 				}
 				?>
 		</tbody>

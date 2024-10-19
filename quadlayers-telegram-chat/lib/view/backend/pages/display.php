@@ -31,7 +31,7 @@
 					>Exclude</option>
 				</select>  
 				<?php
-				$ids = [ '' ];
+				$ids = array( '' );
 				if ( isset( $display['target']['ids'] ) ) {
 				$ids = (array) $display['target']['ids'];
 				}
@@ -140,7 +140,7 @@
 						>Exclude</option>
 					</select>  
 					<?php
-					$ids = [ '' ];
+					$ids = array( '' );
 					if ( isset( $display['taxonomies'][ $key ]['ids'] ) ) {
 					$ids = (array) $display['taxonomies'][ $key ]['ids'];
 					}

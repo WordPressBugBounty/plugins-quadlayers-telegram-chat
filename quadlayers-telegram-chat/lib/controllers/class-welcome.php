@@ -27,5 +27,4 @@ class Welcome {
 		}
 		return self::$instance;
 	}
-
 }

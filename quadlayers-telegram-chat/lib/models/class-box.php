@@ -39,5 +39,4 @@ class Box extends Base {
 	function save( $box_data = null ) {
 		return parent::save_data( $this->table, $this->sanitize( $box_data ) );
 	}
-
 }

@@ -9,5 +9,4 @@ class Welcome {
 		$args = array();
 		return $args;
 	}
-
 }

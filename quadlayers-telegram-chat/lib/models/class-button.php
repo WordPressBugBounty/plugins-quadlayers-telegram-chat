@@ -20,7 +20,7 @@ class Button extends Base {
 			'rounded'   => 'yes',
 			'timefrom'  => '00:00',
 			'timeto'    => '00:00',
-			'timedays'  => [],
+			'timedays'  => array(),
 			'timezone'  => qltgm_get_current_timezone(),
 			'timeout'   => 'readonly',
 		);

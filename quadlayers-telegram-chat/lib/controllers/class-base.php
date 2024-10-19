@@ -19,5 +19,4 @@ class Base {
 	function error_access_denied() {
 		wp_send_json_error( esc_html__( 'Access denied', 'quadlayers-telegram-chat' ) );
 	}
-
 }

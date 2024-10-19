@@ -81,5 +81,4 @@ class Display extends Base {
 			self::$instance = new self();
 		}
 	}
-
 }

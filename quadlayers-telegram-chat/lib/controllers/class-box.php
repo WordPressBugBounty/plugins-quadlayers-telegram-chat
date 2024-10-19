@@ -47,5 +47,4 @@ class Box extends Base {
 		}
 		return self::$instance;
 	}
-
 }

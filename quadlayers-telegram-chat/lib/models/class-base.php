@@ -66,5 +66,4 @@ class Base {
 		$res         = $this->qltgm[ $key ];
 		return $res;
 	}
-
 }

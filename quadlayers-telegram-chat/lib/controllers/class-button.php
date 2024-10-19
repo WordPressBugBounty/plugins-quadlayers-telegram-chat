@@ -48,5 +48,4 @@ class Button extends Base {
 		}
 		return self::$instance;
 	}
-
 }

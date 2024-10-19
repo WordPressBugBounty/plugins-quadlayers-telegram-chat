@@ -120,5 +120,4 @@ class Frontend {
 		}
 		return self::$instance;
 	}
-
 }

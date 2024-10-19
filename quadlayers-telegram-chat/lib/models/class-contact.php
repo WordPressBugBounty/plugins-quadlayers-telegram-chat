@@ -19,7 +19,7 @@ class Contact extends Base {
 			'auto_open'        => false,
 			'avatar'           => 'https://www.gravatar.com/avatar/00000000000000000000000000000000',
 			// 'phone' => '542215677768',
-			 'username'        => 'username',
+			'username'         => 'username',
 			'firstname'        => 'John',
 			'lastname'         => 'Doe',
 			'label'            => esc_html__( 'Support', 'quadlayers-telegram-chat' ),
@@ -28,7 +28,7 @@ class Contact extends Base {
 			'timeto'           => '00:00',
 			'timezone'         => qltgm_get_current_timezone(),
 			'timeout'          => 'readonly',
-			'timedays'         => [],
+			'timedays'         => array(),
 			'display'          => $display_component_model->get_args(),
 		);
 
@@ -69,7 +69,7 @@ class Contact extends Base {
 			$loop = 1;
 			foreach ( $contacts as $key => $value ) {
 				$contacts[ $key ]['order'] = $loop;
-				$loop++;
+				++$loop;
 			}
 		}
 		return $this->save_data( $this->table, $this->sanitize_value_data( $contacts ) );
@@ -156,5 +156,4 @@ class Contact extends Base {
 		uasort( $contacts, array( $this, 'order_contact' ) );
 		return $contacts;
 	}
-
 }

@@ -121,7 +121,7 @@ class Contact extends Base {
 						foreach ( $contacts_id as $contact_id ) {
 							if ( isset( $contacts[ $contact_id ] ) ) {
 								$contacts[ $contact_id ]['order'] = $loop;
-								$loop++;
+								++$loop;
 							}
 						}
 						$result = $contact_model->update_contacts( $contacts );
@@ -181,5 +181,4 @@ class Contact extends Base {
 		}
 		return self::$instance;
 	}
-
 }

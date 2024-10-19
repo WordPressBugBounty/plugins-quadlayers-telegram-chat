@@ -41,7 +41,6 @@ class Backend {
 			}
 		</style>
 		<?php
-
 	}
 
 	function add_js() {
@@ -75,5 +74,4 @@ class Backend {
 		}
 		return self::$instance;
 	}
-
 }

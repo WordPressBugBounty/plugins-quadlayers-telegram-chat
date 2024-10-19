@@ -72,5 +72,4 @@ class Display_Component {
 		}
 		return $array;
 	}
-
 }
