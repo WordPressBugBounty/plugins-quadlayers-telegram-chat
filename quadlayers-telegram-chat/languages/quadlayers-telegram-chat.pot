@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Telegram Button 3.1.7\n"
+"Project-Id-Version: Telegram Button 3.1.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/quadlayers-telegram-chat\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-14T07:35:15+00:00\n"
+"POT-Creation-Date: 2024-11-28T15:35:36+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: quadlayers-telegram-chat\n"
@@ -487,7 +487,7 @@ msgid "Unlock the power of our premium %s plugin which allows you to include unl
 msgstr ""
 
 #: lib/view/backend/pages/premium.php:10
-#: vendor_packages/wp-notice-plugin-promote.php:65
+#: vendor_packages/wp-notice-plugin-promote.php:59
 msgid "Purchase Now"
 msgstr ""
 
@@ -597,37 +597,23 @@ msgid "Social Chat allows your users to start a conversation from your website d
 msgstr ""
 
 #: vendor_packages/wp-notice-plugin-promote.php:44
-msgid "Hello! Thank you for choosing the %s plugin!"
+msgid "Hello! %2$s We've spent countless hours developing this free plugin for you and would really appreciate it if you could drop us a quick rating. Your feedback is extremely valuable to us. %3$s It helps us to get better. Thanks for using %1$s."
 msgstr ""
 
-#: vendor_packages/wp-notice-plugin-promote.php:50
-msgid "Could you please give it a 5-star rating on WordPress? Your feedback boosts our motivation, helps us promote, and continues to improve this product. Your support matters!"
-msgstr ""
-
-#: vendor_packages/wp-notice-plugin-promote.php:52
-msgid "Yes, of course!"
-msgstr ""
-
-#: vendor_packages/wp-notice-plugin-promote.php:57
+#: vendor_packages/wp-notice-plugin-promote.php:51
 msgid "Report a bug"
 msgstr ""
 
-#: vendor_packages/wp-notice-plugin-promote.php:71
+#: vendor_packages/wp-notice-plugin-promote.php:65
 msgid "Hello! We have a special gift!"
 msgstr ""
 
-#: vendor_packages/wp-notice-plugin-promote.php:76
+#: vendor_packages/wp-notice-plugin-promote.php:70
 msgid "Today we have a special gift for you. Use the coupon code %1$s within the next 48 hours to receive a %2$s discount on the premium version of the %3$s plugin."
 msgstr ""
 
 #: vendor_packages/wp-notice-plugin-promote.php:85
-#: vendor_packages/wp-notice-plugin-promote.php:103
-#: vendor_packages/wp-notice-plugin-promote.php:121
-msgid "More info!"
-msgstr ""
-
-#: vendor_packages/wp-notice-plugin-promote.php:95
-#: vendor_packages/wp-notice-plugin-promote.php:113
+#: vendor_packages/wp-notice-plugin-promote.php:99
 msgid "Hello! We want to invite you to try our %s plugin!"
 msgstr ""
 

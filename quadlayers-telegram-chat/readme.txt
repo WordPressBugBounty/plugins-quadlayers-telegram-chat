@@ -4,8 +4,8 @@ Donate link: https://quadlayers.com/products/telegram-chat/
 Tags: telegram, telegram chat, telegram business, telegram support, click to chat
 Requires at least: 4.7
 Requires PHP: 5.6
-Tested up to: 6.6
-Stable tag: 3.1.7
+Tested up to: 6.7
+Stable tag: 3.1.8
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -75,6 +75,9 @@ Use: 15551234567
 Don't use: +001-(555)1234567
 
 == Changelog ==
+
+= 3.1.8 =
+* WordPress compatibility
 
 = 3.1.7 =
 * WordPress compatibility
