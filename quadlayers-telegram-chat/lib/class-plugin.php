@@ -8,7 +8,7 @@ final class Plugin {
 
 	private function __construct() {
 
-		load_plugin_textdomain( 'quadlayers-telegram-chat', false, QLTGM_PLUGIN_DIR . '/languages/' );
+		add_action( 'init', array( $this, 'load_textdomain' ) );
 
 		Settings::instance();
 		Frontend::instance();
@@ -16,6 +16,10 @@ final class Plugin {
 
 		add_action( 'admin_footer', array( __CLASS__, 'add_premium_css' ) );
 		do_action( 'qltgm_init' );
+	}
+
+	public function load_textdomain() {
+		load_plugin_textdomain( 'quadlayers-telegram-chat', false, QLTGM_PLUGIN_DIR . '/languages/' );
 	}
 
 	public static function is_min() {
