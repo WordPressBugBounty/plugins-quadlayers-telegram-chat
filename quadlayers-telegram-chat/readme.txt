@@ -5,7 +5,7 @@ Tags: telegram, telegram chat, telegram business, telegram support, click to cha
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 6.8
-Stable tag: 3.2.1
+Stable tag: 3.2.2
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -75,6 +75,9 @@ Use: 15551234567
 Don't use: +001-(555)1234567
 
 == Changelog ==
+
+= 3.2.2 =
+* Fix update dependencies
 
 = 3.2.1 =
 * Fix textdomain error
