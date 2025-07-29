@@ -59,14 +59,15 @@ class Display_Component {
 		$taxonomies = get_taxonomies( array( 'public' => true ), 'objects' );
 		$array      = array();
 		foreach ( $taxonomies as $taxonomy ) {
-			$terms = get_terms(
+			$term_count = get_terms(
 				array(
 					'taxonomy'   => $taxonomy->name,
 					'hide_empty' => false,
+					'fields'     => 'count',
 				)
 			);
 
-			if ( count( $terms ) ) {
+			if ( $term_count > 0 ) {
 				$array[ $taxonomy->name ] = $taxonomy;
 			}
 		}

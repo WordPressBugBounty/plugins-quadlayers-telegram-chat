@@ -2,16 +2,16 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Telegram Button 3.2.2\n"
+"Project-Id-Version: Telegram Button 3.2.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/quadlayers-telegram-chat\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-05-05T14:14:48+00:00\n"
+"POT-Creation-Date: 2025-07-29T09:06:18+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.11.0\n"
+"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: quadlayers-telegram-chat\n"
 
 #. Plugin Name of the plugin
@@ -413,6 +413,7 @@ msgid "If you select an option all the other will be excluded"
 msgstr ""
 
 #: lib/view/backend/pages/display.php:75
+#, php-format
 msgid "Select for %s&hellip;"
 msgstr ""
 
@@ -474,6 +475,7 @@ msgid "Exclude"
 msgstr ""
 
 #: lib/view/backend/pages/parts/header.php:5
+#, php-format
 msgid "Thanks for using %s! We will do our best to offer you the best and improved communication experience with your users."
 msgstr ""
 
@@ -483,6 +485,7 @@ msgid "Demo"
 msgstr ""
 
 #: lib/view/backend/pages/premium.php:7
+#, php-format
 msgid "Unlock the power of our premium %s plugin which allows you to include unlimited agent accounts with their names and labels inside the box to provide direct contact to the different support areas of your site."
 msgstr ""
 
@@ -500,6 +503,7 @@ msgid "Multiple agents"
 msgstr ""
 
 #: lib/view/backend/pages/premium.php:17
+#, php-format
 msgid "%s allows you to include unlimited agent accounts with their names and labels inside the box to provide direct contact to the different support areas of your site."
 msgstr ""
 
@@ -525,6 +529,7 @@ msgid "Chatbox interface"
 msgstr ""
 
 #: lib/view/backend/pages/premium.php:48
+#, php-format
 msgid "%s for WordPress allows you to include a chatbox for each agent where your users can type their first message."
 msgstr ""
 
@@ -577,14 +582,17 @@ msgid "Community"
 msgstr ""
 
 #: lib/view/backend/pages/welcome.php:21
+#, php-format
 msgid "If you want to get in touch with other %s users or be aware of our promotional discounts join our community now."
 msgstr ""
 
 #: lib/view/backend/pages/welcome.php:28
+#, php-format
 msgid "Thank you for choosing our %s plugin for WordPress! Here you can see our demo and a description about the features we offer in the premium version."
 msgstr ""
 
 #: lib/view/backend/pages/welcome.php:35
+#, php-format
 msgid "If you have any doubt or you find any issue don't hesitate to contact us through our ticket system or join our community to meet other %s users."
 msgstr ""
 
@@ -597,6 +605,7 @@ msgid "Social Chat allows your users to start a conversation from your website d
 msgstr ""
 
 #: vendor_packages/wp-notice-plugin-promote.php:45
+#, php-format
 msgid "Hello! %2$s We've spent countless hours developing this free plugin for you and would really appreciate it if you could drop us a quick rating. Your feedback is extremely valuable to us. %3$s It helps us to get better. Thanks for using %1$s."
 msgstr ""
 
@@ -609,11 +618,13 @@ msgid "Hello! We have a special gift!"
 msgstr ""
 
 #: vendor_packages/wp-notice-plugin-promote.php:71
+#, php-format
 msgid "Today we have a special gift for you. Use the coupon code %1$s within the next 48 hours to receive a %2$s discount on the premium version of the %3$s plugin."
 msgstr ""
 
 #: vendor_packages/wp-notice-plugin-promote.php:86
 #: vendor_packages/wp-notice-plugin-promote.php:100
+#, php-format
 msgid "Hello! We want to invite you to try our %s plugin!"
 msgstr ""
 
