@@ -19,6 +19,6 @@
 	</div>
 
 	<div class="actions">
-	<a target="_blank" href="<?php echo esc_url( QLTGM_DEMO_URL ); ?>"><?php esc_html_e( 'Premium', 'quadlayers-telegram-chat' ); ?></a> |
-	<a target="_blank" href="<?php echo esc_url( QLTGM_DOCUMENTATION_URL ); ?>"><?php esc_html_e( 'Documentation', 'quadlayers-telegram-chat' ); ?></a>
+	<a target="_blank" href="https://quadlayers.com/products/telegram-chat/?utm_source=qltgm_plugin&utm_medium=admin_modal&utm_campaign=premium_upgrade&utm_content=premium_link"><?php esc_html_e( 'Premium', 'quadlayers-telegram-chat' ); ?></a> |
+	<a target="_blank" href="https://quadlayers.com/documentation/telegram-chat/?utm_source=qltgm_plugin&utm_medium=admin_modal&utm_campaign=documentation&utm_content=documentation_link"><?php esc_html_e( 'Documentation', 'quadlayers-telegram-chat' ); ?></a>
 </div>

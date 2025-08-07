@@ -7,8 +7,8 @@
 					<?php printf( esc_html__( 'Unlock the power of our premium %s plugin which allows you to include unlimited agent accounts with their names and labels inside the box to provide direct contact to the different support areas of your site.', 'quadlayers-telegram-chat' ), QLTGM_PLUGIN_NAME ); ?>
 				</div>
 				<br/>
-				<a style="background-color: #006cff;color: #ffffff;text-decoration: none;padding: 10px 30px;border-radius: 30px;margin: 10px 0 0 0;display: inline-block;" target="_blank" href="<?php echo esc_url( QLTGM_DEMO_URL ); ?>"><?php esc_html_e( 'Purchase Now', 'quadlayers-telegram-chat' ); ?></a>
-				<a style="background-color: #ffffff;color: #626262;text-decoration: none;padding: 10px 30px;border-radius: 30px;margin: 10px 0 0 0;display: inline-block;" target="_blank" href="<?php echo esc_url( QLTGM_SUPPORT_URL ); ?>"><?php esc_html_e( 'Get Support', 'quadlayers-telegram-chat' ); ?></a>
+				<a style="background-color: #006cff;color: #ffffff;text-decoration: none;padding: 10px 30px;border-radius: 30px;margin: 10px 0 0 0;display: inline-block;" target="_blank" href="https://quadlayers.com/products/telegram-chat/?utm_source=qltgm_plugin&utm_medium=admin_tab&utm_campaign=premium_upgrade&utm_content=purchase_button"><?php esc_html_e( 'Purchase Now', 'quadlayers-telegram-chat' ); ?></a>
+				<a style="background-color: #ffffff;color: #626262;text-decoration: none;padding: 10px 30px;border-radius: 30px;margin: 10px 0 0 0;display: inline-block;" target="_blank" href="https://quadlayers.com/account/support/?utm_source=qltgm_plugin&utm_medium=admin_tab&utm_campaign=support&utm_content=support_button"><?php esc_html_e( 'Get Support', 'quadlayers-telegram-chat' ); ?></a>
 			</div>
 			<hr/>
 			<div class="feature-section" style="margin: 15px 0;">

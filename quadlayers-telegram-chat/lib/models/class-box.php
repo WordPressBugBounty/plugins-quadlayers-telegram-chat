@@ -12,7 +12,7 @@ class Box extends Base {
 			'auto_open'       => 'no',
 			'auto_delay_open' => 1000,
 			'header'          => '<h3>Hello!</h3><p>Click one of our representatives below to chat on Telegram or send us an email to <a href="mailto:' . get_bloginfo( 'admin_email' ) . '">' . get_bloginfo( 'admin_email' ) . '</a></p>',
-			'footer'          => '<p>Powered by <a target="_blank" href="' . QLTGM_DEMO_URL . '">Telegram Button</a>',
+			'footer'          => '<p>Powered by <a target="_blank" href="https://quadlayers.com/products/telegram-chat/?utm_source=qltgm_plugin&utm_medium=telegram">Telegram Button</a>',
 			'response'        => esc_html__( 'Write a response', 'quadlayers-telegram-chat' ),
 		// ,'contactstimeout' => 'no'
 		);

@@ -12,19 +12,19 @@ if ( class_exists( 'QuadLayers\\WP_Plugin_Table_Links\\Load' ) ) {
 				),
 				array(
 					'text' => esc_html__( 'Premium', 'quadlayers-telegram-chat' ),
-					'url'  => QLTGM_PREMIUM_SELL_URL,
+					'url'  => 'https://quadlayers.com/products/telegram-chat/?utm_source=qltgm_plugin&utm_medium=plugin_table&utm_campaign=premium_upgrade&utm_content=premium_link',
 					'color' => 'green',
 					'target' => '_blank',
 				),
 				array(
 					'place' => 'row_meta',
 					'text'  => esc_html__( 'Support', 'quadlayers-telegram-chat' ),
-					'url'   => QLTGM_SUPPORT_URL,
+					'url'   => 'https://quadlayers.com/account/support/?utm_source=qltgm_plugin&utm_medium=plugin_table&utm_campaign=support&utm_content=support_link',
 				),
 				array(
 					'place' => 'row_meta',
 					'text'  => esc_html__( 'Documentation', 'quadlayers-telegram-chat' ),
-					'url'   => QLTGM_DOCUMENTATION_URL,
+					'url'   => 'https://quadlayers.com/documentation/telegram-chat/?utm_source=qltgm_plugin&utm_medium=plugin_table&utm_campaign=documentation&utm_content=documentation_link',
 				),
 			)
 		);

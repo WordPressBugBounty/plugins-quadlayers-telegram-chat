@@ -5,9 +5,9 @@
 	<p class="about-text"><?php printf( esc_html__( 'Thanks for using %s! We will do our best to offer you the best and improved communication experience with your users.', 'quadlayers-telegram-chat' ), QLTGM_PLUGIN_NAME ); ?></p>
 
 	<p class="about-text">
-		<?php // printf('<a href="%s" target="_blank">%s</a>', QLTGM_DEMO_URL, esc_html__('Purchase', 'quadlayers-telegram-chat')); ?></a>
-		<?php printf( '<a href="%s" target="_blank">%s</a>', QLTGM_DEMO_URL, esc_html__( 'Demo', 'quadlayers-telegram-chat' ) ); ?></a> |
-		<?php printf( '<a href="%s" target="_blank">%s</a>', QLTGM_DOCUMENTATION_URL, esc_html__( 'Documentation', 'quadlayers-telegram-chat' ) ); ?></a>
+		<?php // printf('<a href="%s" target="_blank">%s</a>', 'https://quadlayers.com/products/telegram-chat/?utm_source=qltgm_plugin&utm_medium=admin_header&utm_campaign=premium_upgrade&utm_content=premium_link', esc_html__('Purchase', 'quadlayers-telegram-chat')); ?></a>
+		<?php printf( '<a href="%s" target="_blank">%s</a>', 'https://quadlayers.com/products/telegram-chat/?utm_source=qltgm_plugin&utm_medium=admin_header&utm_campaign=demo&utm_content=demo_link', esc_html__( 'Demo', 'quadlayers-telegram-chat' ) ); ?></a> |
+		<?php printf( '<a href="%s" target="_blank">%s</a>', 'https://quadlayers.com/documentation/telegram-chat/?utm_source=qltgm_plugin&utm_medium=admin_header&utm_campaign=documentation&utm_content=documentation_link', esc_html__( 'Documentation', 'quadlayers-telegram-chat' ) ); ?></a>
 	</p>
 
 	<?php
@@ -26,7 +26,7 @@
 				display: inline-block;
 				width: 140px;
 				" class="wp-badge">%s</div></a>',
-		'https://quadlayers.com/?utm_source=qltgm_admin',
+		'https://quadlayers.com/?utm_source=qltgm_plugin&utm_medium=admin_header&utm_campaign=branding&utm_content=header_logo',
 		plugins_url( '/assets/backend/img/quadlayers.jpg', QLTGM_PLUGIN_FILE ),
 		esc_html__( 'QuadLayers', 'quadlayers-telegram-chat' )
 	);
