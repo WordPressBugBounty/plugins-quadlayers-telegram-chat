@@ -4,14 +4,14 @@
  * Plugin Name:             Telegram Button
  * Plugin URI:              https://quadlayers.com/products/telegram-chat/
  * Description:             Telegram Button allows your visitors to contact you or your team through Telegram chat with a single click.
- * Version:                 3.2.4
+ * Version:                 3.2.7
  * Text Domain:             quadlayers-telegram-chat
  * Author:                  QuadLayers
  * Author URI:              https://quadlayers.com
  * License:                 GPLv3
  * Domain Path:             /languages
  * Request at least:        4.7
- * Tested up to:            6.8
+ * Tested up to:            6.9
  * Requires PHP:            5.6
  */
 
@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 define( 'QLTGM_PLUGIN_NAME', 'Telegram Button' );
-define( 'QLTGM_PLUGIN_VERSION', '3.2.4' );
+define( 'QLTGM_PLUGIN_VERSION', '3.2.7' );
 define( 'QLTGM_PLUGIN_FILE', __FILE__ );
 define( 'QLTGM_PLUGIN_DIR', __DIR__ . DIRECTORY_SEPARATOR );
 define( 'QLTGM_PREFIX', 'qltgm' );
