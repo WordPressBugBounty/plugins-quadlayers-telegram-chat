@@ -8,7 +8,7 @@ final class Plugin {
 
 	private function __construct() {
 
-		add_action( 'init', array( $this, 'load_textdomain' ) );
+		add_action( 'init', array( $this, 'load_textdomain' ), 1 );
 
 		Settings::instance();
 		Frontend::instance();
@@ -19,7 +19,7 @@ final class Plugin {
 	}
 
 	public function load_textdomain() {
-		load_plugin_textdomain( 'quadlayers-telegram-chat', false, QLTGM_PLUGIN_DIR . '/languages/' );
+		load_plugin_textdomain( 'quadlayers-telegram-chat', false, dirname( QLTGM_PLUGIN_BASENAME ) . '/languages' );
 	}
 
 	public static function is_min() {
