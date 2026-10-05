@@ -4,7 +4,7 @@
  * Plugin Name:             Telegram Button
  * Plugin URI:              https://quadlayers.com/products/telegram-chat/
  * Description:             Telegram Button allows your visitors to contact you or your team through Telegram chat with a single click.
- * Version:                 3.2.10
+ * Version:                 3.2.11
  * Text Domain:             quadlayers-telegram-chat
  * Author:                  QuadLayers
  * Author URI:              https://quadlayers.com
@@ -13,6 +13,8 @@
  * Request at least:        4.7
  * Tested up to:            7.1
  * Requires PHP:            5.6
+ * WC requires at least:    4.0
+ * WC tested up to:         11.1
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -20,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 define( 'QLTGM_PLUGIN_NAME', 'Telegram Button' );
-define( 'QLTGM_PLUGIN_VERSION', '3.2.10' );
+define( 'QLTGM_PLUGIN_VERSION', '3.2.11' );
 define( 'QLTGM_PLUGIN_FILE', __FILE__ );
 define( 'QLTGM_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
 define( 'QLTGM_PLUGIN_DIR', __DIR__ . DIRECTORY_SEPARATOR );
@@ -54,5 +56,17 @@ register_activation_hook(
 	QLTGM_PLUGIN_FILE,
 	function () {
 		do_action( 'qltgm_activation' );
+	}
+);
+
+/**
+ * Declarate compatibility with WooCommerce Custom Order Tables
+ */
+add_action(
+	'before_woocommerce_init',
+	function () {
+		if ( class_exists( '\Automattic\WooCommerce\Utilities\FeaturesUtil' ) ) {
+			\Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', __FILE__, true );
+		}
 	}
 );

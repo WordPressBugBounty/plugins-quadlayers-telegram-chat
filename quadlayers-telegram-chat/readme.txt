@@ -5,9 +5,11 @@ Tags: telegram, telegram chat, telegram business, telegram support, click to cha
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 7.1
-Stable tag: 3.2.10
+Stable tag: 3.2.11
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
+WC requires at least: 4.0
+WC tested up to: 11.1
 
 Telegram Button allows your users to contact you through Telegram chat with a single click.
 
@@ -75,6 +77,10 @@ Use: 15551234567
 Don't use: +001-(555)1234567
 
 == Changelog ==
+
+= 3.2.11 =
+* WooCommerce 11.1 compatibility
+* fix: declare WooCommerce HPOS compatibility
 
 = 3.2.10 =
 * fix: WordPress compatibility
